@@ -41,8 +41,8 @@ function Home() {
           </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
               Full-stack web developer with extensive experience in leadership, education, and management with a certificate in full stack web development from the University of New Hampshire.Trained in HTML, CSS, JavaScript, Node.JS, Angular and React. 
-<br />
-Many years of wilderness leadership has demonstrated my ability to work in a team and under great stress. I look forward to contributing to projects that help increase the quality of the user’s experience with my creative problem-solving and mission driven focus.  
+              <br />
+              Many years of wilderness leadership has demonstrated my ability to work in a team and under great stress. I look forward to contributing to projects that help increase the quality of the user’s experience with my creative problem-solving and mission driven focus.  
 
 
           </Typography>
