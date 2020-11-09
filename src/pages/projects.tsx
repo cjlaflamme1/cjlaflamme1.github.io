@@ -1,12 +1,18 @@
 import React from 'react';
+import portfolioInfo from '../utils/projectInfo';
+import ProjectTemplate from '../components/projectTemplate';
 
 
 
 function Projects() {
   return (
     <>
-    
-<h1>Projects works!</h1>
+    <div>
+    {portfolioInfo.map((data) => {
+      return <ProjectTemplate data={data} />
+    }) }
+    </div>
+
     
     </>
   );
