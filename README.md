@@ -19,7 +19,7 @@ This portfolio demonstrates some of my developed projects and my resume.
     
     
 ### Finished Project
-Project Link: [Professional Portfolio](cjlaflamme1.github.io)
+Project Link: [Professional Portfolio](https://cjlaflamme1.github.io)
     
     
 ### Project Screenshot
