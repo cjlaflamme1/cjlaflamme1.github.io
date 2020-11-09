@@ -5,7 +5,7 @@ import { Container } from '@material-ui/core';
 
 import './App.css';
 import Home from './pages/home';
-import Contact from './pages/contact';
+
 import NotFound from './pages/notFound';
 import Projects from './pages/projects';
 import Resume from './pages/resume';
@@ -20,6 +20,9 @@ function App() {
         <CssBaseline />
 
         <div className="Nav">
+          <span className="name">
+            Chad J Laflamme
+          </span>
           <span>
             <Link to="/">Home</Link>
           </span>
@@ -29,27 +32,21 @@ function App() {
           <span>
             <Link to="/resume">Resume</Link>
           </span>
-          <span>
-            <Link to="contact">Contact</Link>
-          </span>
         </div>
-
-
         <Switch>
           <Container>
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
             <Route exact path="/resume" component={Resume} />
-            <Route exact path="/contact" component={Contact} />
+            
             {/* <Route component={NotFound} /> */}
 
           </Container>
         </Switch>
-
-        <footer></footer>
-
       </Router>
-
+    </div>
+    <div className="Nav">
+      <span>©2020</span>
     </div>
 
 

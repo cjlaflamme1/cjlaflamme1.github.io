@@ -37,24 +37,29 @@ function Home() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Chad J Laflamme
+                Chad J Laflamme - Web Developer
           </Typography>
               <Typography variant="body2" color="textSecondary" component="p">
-                Full-stack web developer with extensive experience in leadership, education, and management with a certificate in full stack web development from the University of New Hampshire.Trained in HTML, CSS, JavaScript, Node.JS, Angular and React.
+              Full-stack web developer with extensive experience in leadership, education, and management with a certificate in full stack web development from the University of New Hampshire.Trained in HTML, CSS, JavaScript, Node.JS, Angular and React. 
 <br />
-With creative problem-solving and
-My experience as an Outdoor Educator and Nonprofit leader has demonstrated my abilities to work within a team and under high-pressure and adverse conditions. I look forward to contributing to projects that help increase the quality of the user’s experience with my creative problem-solving and mission driven focus.
+Many years of wilderness leadership has demonstrated my ability to work in a team and under great stress. I look forward to contributing to projects that help increase the quality of the user’s experience with my creative problem-solving and mission driven focus.  
 
 
           </Typography>
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              Share
+            <Button size="small" color="primary" href="https://www.linkedin.com/in/chad-j-laflamme/" target="_blank">
+              LinkedIn
         </Button>
-            <Button size="small" color="primary">
-              Learn More
+            <Button size="small" color="primary" href="https://github.com/cjlaflamme1" target="_blank">
+              GitHub
+        </Button>
+        <Button size="small" color="primary" href="mailto:cjlaflamme1@plymouth.edu">
+              EMAIL
+        </Button>
+        <Button size="small" color="primary" >
+              Phone: 949-204-4740
         </Button>
           </CardActions>
         </Card>

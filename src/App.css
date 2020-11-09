@@ -55,4 +55,7 @@ h1.projectHeading {
         max-width: 250px;
         max-height: 250px;
     }
+    span.name {
+        display: none;
+    }
 }
