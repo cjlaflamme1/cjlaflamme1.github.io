@@ -74,7 +74,7 @@ export default function ProjectTemplate(props: portfolioProps) {
 
         <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
             <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                <Typography>{props.data.title}</Typography>
+                <Typography><h3>{props.data.title}</h3></Typography>
             </AccordionSummary>
             <AccordionDetails>
                 <img src={props.data.image} alt="project image" className="projectImage" />
@@ -82,8 +82,6 @@ export default function ProjectTemplate(props: portfolioProps) {
             </AccordionDetails>
 
             <AccordionDetails>
-
-
                 <Typography>
                     {props.data.description}
                 </Typography>
@@ -92,9 +90,7 @@ export default function ProjectTemplate(props: portfolioProps) {
                 {props.data.projectLink &&
                     <Button size="small" href={props.data.projectLink} target="_blank">View Project</Button>
                 }
-                <Button size="small" color="primary">
-                    View Repository
-          </Button>
+                <Button size="small" color="primary" href={props.data.projectRepo} target="_blank">View Repository</Button>
             </AccordionActions>
         </Accordion>
 

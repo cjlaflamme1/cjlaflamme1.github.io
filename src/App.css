@@ -46,6 +46,10 @@ img.projectImage {
     max-height: 450px;
 }
 
+h1.projectHeading {
+    text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
     img.projectImage {
         max-width: 250px;
