@@ -61,6 +61,9 @@ function Home() {
         <Button size="small" color="primary" >
               Phone: 949-204-4740
         </Button>
+        <Button size="small" color="primary" href="https://drive.google.com/file/d/0Bx7Z7UGSlNy8NUFfZmJCTGUyb0U/view?usp=sharing" target="_blank">
+              Resume
+        </Button>
           </CardActions>
         </Card>
       </div>
